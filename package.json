@@ -1,0 +1,29 @@
+{
+  "name": "typescriptlibrarytest",
+  "version": "1.0.0",
+  "description": "testing pure typescript",
+  "main": "index.js",
+  "scripts": {
+
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ],
+    "testRegex": "^.+\\.spec\\.ts$"
+  },
+  "author": "William Deich",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.4",
+    "@types/node": "^20.6.0",
+    "jest": "^29.6.4",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.2.2"
+  }
+}
