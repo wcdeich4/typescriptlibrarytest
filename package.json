@@ -2,7 +2,7 @@
   "name": "typescriptlibrarytest",
   "version": "1.0.0",
   "description": "testing shared typescript library",
-
+  "main": "index.d.ts",
   "scripts": {
 
     "test": "jest"
