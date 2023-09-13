@@ -1,8 +1,8 @@
 {
   "name": "typescriptlibrarytest",
   "version": "1.0.0",
-  "description": "testing pure typescript",
-  "main": "index.js",
+  "description": "testing shared typescript library",
+
   "scripts": {
 
     "test": "jest"
